@@ -1,15 +1,14 @@
 package com.workintech.fswebs18challengemaven;
 
+import com.workintech.fswebs18challengemaven.Dao.CardRepository;
+import com.workintech.fswebs18challengemaven.Dao.CardRepositoryImpl;
 import com.workintech.fswebs18challengemaven.entity.Card;
 import com.workintech.fswebs18challengemaven.entity.Color;
 import com.workintech.fswebs18challengemaven.entity.Type;
 import com.workintech.fswebs18challengemaven.exceptions.CardErrorResponse;
 import com.workintech.fswebs18challengemaven.exceptions.CardException;
-import com.workintech.fswebs18challengemaven.repository.CardRepository;
-import com.workintech.fswebs18challengemaven.repository.CardRepositoryImpl;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.TypedQuery;
-import org.checkerframework.checker.units.qual.C;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
